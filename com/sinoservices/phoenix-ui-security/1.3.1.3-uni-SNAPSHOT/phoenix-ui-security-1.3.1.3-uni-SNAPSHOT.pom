@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>phoenix-ui-parent</artifactId>
+        <groupId>com.sinoservices</groupId>
+        <version>1.3.1.3-uni-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>phoenix-ui-security</artifactId>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.sinoservices</groupId>
+            <artifactId>phoenix-ui-res</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sinoservices</groupId>
+            <artifactId>phoenix-security</artifactId>
+            <version>${project.parent.version}</version>
+            <exclusions>
+            	<exclusion>
+            		<artifactId>javax.servlet</artifactId>
+            		<groupId>com.sinoservices.3rd.jar</groupId>
+            	</exclusion>
+            </exclusions>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.sinoservices.chainwork.jar</groupId>
+            <artifactId>core-api</artifactId>
+            <version>4.0.6-uni-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sinoservices.chainwork.jar</groupId>
+            <artifactId>core-web</artifactId>
+            <version>4.0.6-uni-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+		    <groupId>com.sinoservices.cas.client</groupId>
+		    <artifactId>cas-client-core</artifactId>
+		    <version>1.0-SNAPSHOT</version>
+		</dependency>
+
+    </dependencies>
+
+
+</project>

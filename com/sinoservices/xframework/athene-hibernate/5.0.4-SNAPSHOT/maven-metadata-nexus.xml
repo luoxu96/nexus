@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.sinoservices.xframework</groupId>
+  <artifactId>athene-hibernate</artifactId>
+  <version>5.0.4-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20200316.100828</timestamp>
+      <buildNumber>13</buildNumber>
+    </snapshot>
+    <lastUpdated>20200316100828</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>5.0.4-20200316.100828-13</value>
+        <updated>20200316100828</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>5.0.4-20200316.100828-13</value>
+        <updated>20200316100828</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

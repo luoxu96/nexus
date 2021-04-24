@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.sinoservices</groupId>
+        <artifactId>framework-boot-parent</artifactId>
+        <version>1.4-uni-SNAPSHOT</version>
+    </parent>
+    <groupId>com.sinoservices.chainwork</groupId>
+    <artifactId>yms</artifactId>
+    <version>0.0.1-UniProject-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>yms</name>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.sinoservices.chainwork.jar</groupId>
+            <artifactId>core-api</artifactId>
+        </dependency>
+    </dependencies>
+    <modules>
+        <module>yms-web-api</module>
+        <module>yms-module-api</module>
+        <module>yms-oracle</module>
+        <module>yms-mysql</module>
+        <module>yms-manager</module>
+        <module>yms-service</module>
+        <module>yms-java-webapps</module>
+        <module>yms-web</module>
+    </modules>
+</project>

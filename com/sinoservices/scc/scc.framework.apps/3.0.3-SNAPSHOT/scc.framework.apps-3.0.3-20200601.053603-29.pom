@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.sinoservices.scc</groupId>
+	<artifactId>scc.framework.apps</artifactId>
+	<version>3.0.3-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.sinoservices.scc</groupId>
+				<artifactId>scc.3rd.libs.management</artifactId>
+				<version>3.0.3-libs-SNAPSHOT</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	<dependencies>
+	</dependencies>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<distributionManagement>
+		<repository>
+			<id>nexus-releases</id>
+			<url>http://192.168.0.147:8081/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus-snapshots</id>
+			<url>http://192.168.0.147:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+	<modules>
+		<module>scc.base.datamodle</module>
+		<module>scc.base.exception</module>
+		<module>scc.3rd.libs</module>
+		<module>scc.base.cfg</module>
+		<module>scc.base.log</module>
+		<module>scc.base.utils</module>
+		<module>scc.cache</module>
+		<module>scc.cache.serialno</module>
+		<module>scc.common.files</module>
+		<module>scc.common.web</module>
+		<module>scc.framework</module>
+		<module>scc.load.common.resource</module>
+		<module>scc.persistence.for.oracle</module>
+		<module>scc.persistence.interface</module>
+		<module>scc.project.template.utils</module>
+		<module>scc.schedule</module>
+		<module>scc.webservice.cxf</module>
+		<module>scc.mq</module>
+		<module>scc.base.core</module>
+		<module>scc.validate</module>
+		<module>scc.mongodb</module>
+		<module>scc.junit</module>
+		<module>scc.mq.activemq</module>
+		<module>scc.mq.kafka</module>
+		<module>scc.service.route</module>
+		<module>scc.cfg.springplaceholder</module>
+		<module>scc.sendfile</module>
+		<module>scc.junit.dump</module>
+		<module>scc.cfg.xdiamond</module>
+		<module>scc.base.log.logback</module>
+		<module>scc.base.log.log4j</module>
+		<module>scc.junit.jacoco.report</module>
+<!-- 		<module>scc.3rd.libs.management</module> -->
+		<module>scc.persistence.for.mysql</module>
+		<module>scc.utils</module>
+		<!-- <module>scc.http.security</module> -->
+		<module>scc.cfgchk</module>
+		<module>scc.i18n</module>
+		<module>scc.encrypt.service</module>
+		<module>scc.cgck</module>
+    <module>scc.converter</module>
+    <module>scc.license.creator</module>
+	</modules>
+
+</project>

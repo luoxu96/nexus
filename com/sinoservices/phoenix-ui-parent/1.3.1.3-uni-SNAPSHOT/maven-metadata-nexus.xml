@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.sinoservices</groupId>
+  <artifactId>phoenix-ui-parent</artifactId>
+  <version>1.3.1.3-uni-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210107.125431</timestamp>
+      <buildNumber>39</buildNumber>
+    </snapshot>
+    <lastUpdated>20210107125431</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.3.1.3-uni-20210107.125431-39</value>
+        <updated>20210107125431</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

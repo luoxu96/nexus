@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.sinoservices.chainwork</groupId>
+  <artifactId>jms</artifactId>
+  <version>1.0-uni-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20191109.090835</timestamp>
+      <buildNumber>3</buildNumber>
+    </snapshot>
+    <lastUpdated>20191109090835</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0-uni-20191109.090835-3</value>
+        <updated>20191109090835</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

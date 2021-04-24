@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.sinoservices</groupId>
+  <artifactId>phoenix-common-api</artifactId>
+  <version>1.3.1.3-uni-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20201022.030545</timestamp>
+      <buildNumber>10</buildNumber>
+    </snapshot>
+    <lastUpdated>20201022030545</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.3.1.3-uni-20201022.030545-10</value>
+        <updated>20201022030545</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.3.1.3-uni-20201022.030545-10</value>
+        <updated>20201022030545</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.3.1.3-uni-20201022.030545-10</value>
+        <updated>20201022030545</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

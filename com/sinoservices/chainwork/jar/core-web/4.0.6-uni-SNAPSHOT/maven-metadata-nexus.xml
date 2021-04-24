@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.sinoservices.chainwork.jar</groupId>
+  <artifactId>core-web</artifactId>
+  <version>4.0.6-uni-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20200720.133222</timestamp>
+      <buildNumber>6</buildNumber>
+    </snapshot>
+    <lastUpdated>20200720133222</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>4.0.6-uni-20200720.133222-6</value>
+        <updated>20200720133222</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>4.0.6-uni-20200720.133222-6</value>
+        <updated>20200720133222</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>4.0.6-uni-20200720.133222-6</value>
+        <updated>20200720133222</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

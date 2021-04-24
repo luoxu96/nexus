@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <dependencies>
+        <dependency>
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>jaxrs-api</artifactId>
+            <version>3.0.7.Final</version>
+            <scope>compile</scope>
+        </dependency>
+        <!-- ireport导表 -->
+        <dependency>
+            <groupId>net.sf.jasperreports</groupId>
+            <artifactId>jasperreports</artifactId>
+            <version>6.0.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.olap4j</groupId>
+                    <artifactId>olap4j</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+    </dependencies>
+    <parent>
+        <groupId>com.sinoservices.chainwork</groupId>
+        <artifactId>yms</artifactId>
+        <version>0.0.1-UniProject-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>yms-web-api</artifactId>
+
+</project>

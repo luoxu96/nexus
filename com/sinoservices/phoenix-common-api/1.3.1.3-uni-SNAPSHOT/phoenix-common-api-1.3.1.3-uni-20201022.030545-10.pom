@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<project
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+        xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.sinoservices</groupId>
+        <artifactId>phoenix-parent</artifactId>
+        <version>1.3.1.3-uni-SNAPSHOT</version>
+    </parent>
+    <artifactId>phoenix-common-api</artifactId>
+    <name>phoenix-common-api</name>
+
+    <description>定义了工程的目录结构和基础结构类，提供框架的最基础支撑。</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>1.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>1.1.0.Final</version>
+        </dependency>
+    </dependencies>
+
+    <developers>
+        <developer>
+            <id>thierry.fu</id>
+            <name>fuqiongsong(thierry)</name>
+            <email>thierry.fu (AT) sinoservices.com</email>
+            <roles>
+                <role>Developer</role>
+            </roles>
+            <timezone>+8</timezone>
+        </developer>
+    </developers>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.sinoservices</groupId>
+        <artifactId>framework-boot-parent</artifactId>
+        <version>1.6-SNAPSHOT</version>
+    </parent>
+    <groupId>com.sinoservices.chainwork</groupId>
+    <artifactId>upm</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>upm</name>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.sinoservices.chainwork.jar</groupId>
+            <artifactId>core-api</artifactId>
+        </dependency>
+    </dependencies>
+    <modules>
+        <module>upm-web-api</module>
+        <module>upm-module-api</module>
+        <module>upm-oracle</module>
+        <module>upm-mysql</module>
+        <module>upm-postgresql</module>
+        <module>upm-manager</module>
+        <module>upm-number</module>
+        <module>upm-service</module>
+        <module>upm-java-webapps</module>
+        <module>upm-web</module>
+    </modules>
+</project>
